@@ -386,7 +386,7 @@ footer{
     padding-top: 25px;
  }
  
- @media  screen and (max-width: 1260px) {
+ @media  screen and (max-width: 960px) {
     .main {
         background-image: url("assests/image/background.jpg");
         height: 500px;
@@ -455,7 +455,7 @@ footer{
 
     
 }
-@media screen and (max-width: 1260px){
+@media screen and (max-width: 960px){
     .first{
        flex-wrap: wrap;
        align-items: center;
@@ -554,7 +554,7 @@ footer{
     align-items: center;
    }
 }
-@media screen and (max-width: 1260px){
+@media screen and (max-width: 960px){
     .footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
