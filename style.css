@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assests/image/background.jpg");
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    background-size: max(1200px, 100vw);
+}
+
+
+.main .box {
+    height: 100vh;
+    background-color: black;
+    opacity: 0.69;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 92px;
+    max-width: 75vw;
+    
+}
+
+nav span img {
+    color: red;
+    /* height: 100px; */
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    gap: 400px;
+}
+
+nav div button {
+    position: relative;
+    z-index: 10;
+}
+
+.btn-eng svg{
+    padding-left: 5px ;
+}
+
+.hero {
+    height: calc(100% - 92px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Noto Sans", sans-serif;
+    padding: 0 30px;
+    gap: 23px;
+}
+
+.hero> :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(37, 37, 37);
+}
+.separation-1{
+    height: 7px;
+    background-color: rgb(37, 37, 37);
+}
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    /* padding: 10px 25px 17px 25px; */
+    padding: 4px 20px 16px 20px ;
+    font-size: 24px;
+    border-radius: 4px;
+    border: 1px solid red;
+}
+.btn-red svg{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 7px 15px 7px 15px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.btn-eng{
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgba(169, 163, 163, 0.7);
+    padding: 7px 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.hero-buttons{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 20px 170px 19px 14px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    font-weight: 500;
+    border: 1px solid rgba(169, 163, 163, 0.7);
+    color: white;
+}
+
+.first{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 10px 0px;
+}
+.first> div :first-child{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Noto Sans", sans-serif;
+    /* padding-bottom: 10px;
+    padding-bottom: 20px; */
+
+}
+.first> div :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.first> div :first-child{
+    display: flex;
+    flex-direction: column;
+    padding: 14px 0px;
+} 
+
+
+.secimg-1 {
+    position: relative;
+    padding: 65px 0px 50px 10px;
+}
+
+.secimg-1 img{
+    width: 460px;
+    position: relative;
+    z-index: 10; 
+}
+.secimg-1 video{
+    position: absolute;
+    top: 140px;
+    right: 0px;
+    width: 400px;
+    padding: 5px;
+}
+.secimg-2{
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.secimg-2 img{
+    width: 460px;
+    position: relative;
+    z-index: 10;
+    padding: 10px 0px 50px 0px;
+}
+.stranger-things{
+    width: 260px;
+    height: 90px;
+    border: 3px solid rgb(88, 88, 88);
+    border-radius: 15px;
+    margin: 0px 95px 0px 95px;
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+ }
+ .stranger-things> img:first-child{
+    width: 60px;
+    height: 80px;
+    padding-top: 1px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 5px;
+ }
+ .stranger-things img{
+    height: 3rem;
+    width: 3rem;
+    padding-top: 20px;
+ }
+.sttexts{
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+}
+.sttexts> span:nth-child(1){
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    padding: 10px 0px 0px 0px;
+}
+.sttexts> span:nth-child(2){
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(0, 113, 235);
+}
+.secimg-3{
+    position: relative;
+    padding: 85px 0px 50px 10px;
+}
+ .secimg-3 img{
+    width: 460px;
+    position: relative;
+    z-index: 10;
+    padding: 10px 0px 50px 0px;
+ }
+ .secimg-3 video{
+    position: absolute;
+    top: 110px;
+    left: 80px;
+    width: 305px;
+    padding: 5px;
+}
+.secimg-4{
+    position: relative;
+    padding: 85px 0px 50px 10px;
+}
+.secimg-4 img{
+    position: relative;
+    width: 500px;
+}
+
+.last> span{
+    font-weight: 900;
+    font-size: 48px;
+    font-family: "Noto Sans", sans-serif;
+}
+.last{
+    background-color: black;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+.last h2{
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+    padding: 70px 0px 25px 0px;
+}
+.faq-box{
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    padding: 22px;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    max-width: 70vw;
+    margin: 10px auto;
+    justify-content: space-between;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+.faq-box:hover{
+    background-color: rgb(88, 88, 88);
+}
+.hero-last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 90px 0px;
+}
+.hero-last> span{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+    padding: 30px;
+}
+.hero-last input{
+
+    padding: 20px 170px 19px 14px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    font-weight: 500;
+    border: 1px solid rgba(169, 163, 163, 0.7);
+    color: white;
+}
+footer{
+    color: rgb(160, 156, 156);
+    max-width: 60vw;
+    margin: auto;
+    font-family: "Noto Sans", sans-serif;
+    padding: 30px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer a{
+    color: rgb(160, 156, 156);
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.questions{
+    padding: 34px 0px;
+}
+.lastbtn{
+    padding-top: 25px;
+}
+.btn-last{
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgb(103, 99, 99);
+    border-radius: 4px;
+    color: white;
+    padding: 5px 1px 3px 2px ;
+    width: 8vw;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+ }
+
+ .lastnetflix{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 25px;
+ }
+ 
+ @media  screen and (max-width: 1260px) {
+    .main {
+        background-image: url("assests/image/background.jpg");
+        height: 500px;
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        /* width: 100vw; */
+        background-size: max(1200px, 100vw);
+    }
+    
+    .main .box {
+        height: 500px;
+        background-color: black;
+        opacity: 0.69;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    nav{
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        padding-bottom: 0px;
+    }
+    nav span img{
+        width: 100px;
+    }
+    .btn-eng{
+        font-size: 12px;
+        padding: 9px;
+    }
+    .btn-red-sm{
+        font-size: 12px;
+        padding: 9px 15px;
+    }
+    .hero> :first-child {
+        font-size: 35px;
+        font-weight: 900;
+        text-align: center;
+    }  
+    .hero> :nth-child(2) {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .hero> :nth-child(3) {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+.main input {
+    padding: 15px 80px 14px 14px;
+}
+.btn-red{
+    padding: 1px 15px 13px 15px;
+    font-size: 20px;
+}
+.btn-red svg{
+    height: 18px;
+}
+.separation {
+    padding: 16px;
+    height: 7px;
+    background-color: rgb(37, 37, 37);
+}
+
+    
+}
+@media screen and (max-width: 1260px){
+    .first{
+       flex-wrap: wrap;
+       align-items: center;
+       flex-direction: column;
+   }
+   .second{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+   .third{
+    align-items: center;
+   }
+   .secimg-2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 100px; */
+   }
+   .secimg-1 img{
+    width: 370px;
+   }
+   .secimg-2 img{
+    width: 370px;
+    padding-left: 100px;
+   }
+   .stranger-things{
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    /* padding-right: 100px; */
+   }
+   .stranger-things> img:first-child{
+    width: 35px;
+    height: 40px;
+    padding: 10px;
+   }
+   .stranger-things img{
+    height: 3rem;
+    width: 3rem;
+    padding-top: 46px;
+    padding-left: 30px;
+   }
+   .secimg-1 video{
+    width: 320px;
+    right: 0px;
+    top: 120px;
+   }
+   .secimg-3 img{
+       width: 370px;
+   }
+   .secimg-3 video{
+       width: 222px;
+}
+ .secimg-4 img{
+    width: 370px;
+ }
+  .first> div :first-child{
+    font-size: 35px;
+    font-weight: 900;
+    font-family: "Noto Sans", sans-serif;
+    /* justify-content: center;
+    align-items: center; */
+  }
+ 
+ .first> div :nth-child(2){
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* align-items: center;
+    justify-content: center; */
+
+} 
+.sttexts> span:nth-child(1){
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+   }
+   .sttexts> span:nth-child(2){
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+   }
+   .fourth{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+   }
+
+   .fourth> div:nth-child(2){
+    align-items: center;
+   }
+}
+@media screen and (max-width: 1260px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .last h2{
+        font-size: 35px;
+    }
+    .faq-box{
+        font-size: 20px;
+    }
+    .faq-box svg{
+        width: 18px;
+        height: 18px;
+        padding-top: 5px;
+    }
+    .hero-last> span{
+        font-size: 15px;
+     
+        justify-content: center;
+    }
+    .hero-last input{
+        padding: 15px 80px 14px 14px;
+
+
+    }
+}
